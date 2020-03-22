@@ -3,7 +3,7 @@
 #include<string.h>
 void main()
 {
-    char sent[50];
+    char sent[100];
     int check=0,w=0,s=0,l=0,i=0,j=0,n=0,c[10];
     cout<<"Enter a Sentence\n";
     gets(sent);
@@ -30,10 +30,10 @@ void main()
     }
     if(check==1)
     {
-        printf("NOPE  THIS IS NOT A WAS\n");
+        cout<<"NOPE  THIS IS NOT A WAS\n";
     }
     else
     {
-        printf("WAS\n");
+        cout<<"WAS\n";
     }
 }
